@@ -1,6 +1,6 @@
 import meter1 from "../assets/img/meter1.svg";
 // import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+// import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 // import arrow1 from "../assets/img/arrow1.svg";
@@ -35,23 +35,23 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I am a self-taught front-end developer. I primarily focus on writing clean, elegant, and efficient code. I am proficient in HTML, CSS, JavaScript and React.JS. I also review existing code and can consult with you on.</p>
+                        <p>I am a highly motivated Mobile App Developer with a strong foundation in React Native, Expo, and modern front-end technologies. With a passion for crafting elegant, efficient, and scalable applications, I have successfully developed and contributed to multiple projects, transforming complex ideas into user-friendly mobile experiences.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter3} alt="" />
-                                <h5>React.JS</h5>
+                                <img src={meter1} alt="" />
+                                <h5>React Native</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="" />
+                                <h5>Expo</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="" />
+                                <h5>TypeScript</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="" />
                                 <h5>JavaScript</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="" />
-                                <h5>CSS</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="" />
-                                <h5>HTML</h5>
                             </div>
                         </Carousel>
                     </div>
