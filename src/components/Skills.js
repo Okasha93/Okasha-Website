@@ -35,7 +35,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I am a highly motivated Mobile App Developer with a strong foundation in React Native, Expo, and modern front-end technologies. With a passion for crafting elegant, efficient, and scalable applications, I have successfully developed and contributed to multiple projects, transforming complex ideas into user-friendly mobile experiences.</p>
+                        <p>I am a highly motivated Full Stack Web and Mobile App Developer with a strong foundation in React Native, Expo, React, Next, Node, Express, Mangodb and modern front-end technologies. With a passion for crafting elegant, efficient, and scalable applications, I have successfully developed and contributed to multiple projects, transforming complex ideas into user-friendly mobile experiences..</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="" />
@@ -48,6 +48,26 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="" />
                                 <h5>TypeScript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="" />
+                                <h5>React</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="" />
+                                <h5>Next</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="" />
+                                <h5>Node</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="" />
+                                <h5>Express</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="" />
+                                <h5>Mangodb</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="" />

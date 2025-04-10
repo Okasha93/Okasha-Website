@@ -14,7 +14,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   // eslint-disable-next-line
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Mobile App Developer | React Native", "Mobile App Developer | React Native", "Mobile App Developer | React Native" ];
+  const toRotate = [ "Full Stack Web and Mobile App Developer | React Native - React - Next - Node - Express - Mangodb", "Full Stack Web and Mobile App Developer | React Native - React - Next - Node - Express - Mangodb", "Full Stack Web and Mobile App Developer | React Native - React - Next - Node - Express - Mangodb" ];
   const period = 2000;
 
   useEffect(() => {
@@ -60,8 +60,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Eslam `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Mobile App Developer | React Native", "Mobile App Developer | React Native", "Mobile App Developer | React Native" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a highly motivated Mobile App Developer with a strong foundation in React Native, Expo, and modern front-end technologies. With a passion for crafting elegant, efficient, and scalable applications, I have successfully developed and contributed to multiple projects, transforming complex ideas into user-friendly mobile experiences. </p>
+                <h1>{`Hi! I'm Eslam `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Web and Mobile App Developer | React Native - React - Next - Node - Express - Mangodb", "Full Stack Web and Mobile App Developer | React Native - React - Next - Node - Express - Mangodb" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>I am a highly motivated Full Stack Web and Mobile App Developer with a strong foundation in React Native, Expo, React, Next, Node, Express, Mangodb and modern front-end technologies. With a passion for crafting elegant, efficient, and scalable applications, I have successfully developed and contributed to multiple projects, transforming complex ideas into user-friendly mobile experiences. </p>
                   <button onClick={() => console.log('connect')} >Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
